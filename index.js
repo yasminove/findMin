@@ -1,4 +1,5 @@
 function findMin(arr){
+  // find minimum value in arr
   var min = arr[0];
   for(i=1; i<arr.length; i++){
     if(arr[i]<min){
